@@ -33,7 +33,10 @@ Google Play의 `데이터 보안정책 업데이트`에 따라, 앱 개발사(�
 
 * 딜로 SDK에서 전송하는 모든 사용자 데이터는 전송 중에 암호화되며, 사용자가 데이터 삭제를 요청할 수 있는 방편을 제공하지 않습니다
 
+* 안드로이드 오토 환경에서는 Product Type=dilo로 호출합니다. (Audio 광고만 노출 가능)
+
 구글플레이 보안섹션 양식 작성과 관련 상세 내용은 [가이드문서](https://github.com/dilogithub/android-sdk/files/8559212/default.pdf) 를 확인부탁드립니다
+
 
 ---
 
