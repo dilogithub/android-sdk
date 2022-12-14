@@ -14,6 +14,8 @@
   - ext.kotlin_version `1.5.10`
   - com.android.tools.build:gradle `4.2.0`
 
+* 안드로이드 오토 환경에서는 Audio 광고만 호출하는 것을 권장 합니다. SDK를 제외한 안드로이드 오토에 대한 기술지원은 하지 않습니다.
+
 ---
 
 ## 안내 사항
@@ -32,8 +34,6 @@ Google Play의 `데이터 보안정책 업데이트`에 따라, 앱 개발사(�
 | 기기 또는 기타 식별자 | Android 광고 ID를 공유 |
 
 * 딜로 SDK에서 전송하는 모든 사용자 데이터는 전송 중에 암호화되며, 사용자가 데이터 삭제를 요청할 수 있는 방편을 제공하지 않습니다
-
-* 안드로이드 오토 환경에서는 Product Type=dilo로 호출합니다. (Audio 광고만 노출 가능)
 
 구글플레이 보안섹션 양식 작성과 관련 상세 내용은 [가이드문서](https://github.com/dilogithub/android-sdk/files/8559212/default.pdf) 를 확인부탁드립니다
 
